@@ -27,6 +27,9 @@ Dentre os pacotes NuGet utilizados, o **AutoMapper** é o responsável pelo mape
 ![.NET Badge](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=fff&style=flat)
 ![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=flat)
 ![Swagger Badge](https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=000&style=flat)
+![badge-visual-studio]: https://img.shields.io/badge/Visual%20Studio-5C2D91?logo-visualstudio&logoColor-fff&style-for-the-badge
+![badge-windows]: https://img.shields.io/badge/Windows-0078D4?logo-windows&logoColor-fff&style-for-the-badge
+
 
 
 ## Getting Startde
