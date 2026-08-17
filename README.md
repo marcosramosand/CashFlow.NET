@@ -39,7 +39,7 @@ Para executar o projeto localmente, siga estes passos simples.
 
 ## Requisitos
 
-* Visual Studio 2022 ou superior ou Visual Studio Code
+* Visual Studio 2022  ou Visual Studio Code
 * Windows 10+ ou Linux/macOS com [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) instalado 
 * MySQL Server
 
