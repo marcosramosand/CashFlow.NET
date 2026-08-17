@@ -33,15 +33,15 @@ Dentre os pacotes NuGet utilizados, o **AutoMapper** é o responsável pelo mape
 
 
 
-## Getting Startde
+## Getting Started
 
-Para obter uma cópia local funcionando, siga estes passos simples.
+Para executar o projeto localmente, siga estes passos simples.
 
 ## Requisitos
 
-* Visual Studio versão 2022+ ou Visual Studio Code
-* Windows 10+ ou Linux/MacOS com [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) instalado 
-* MySql Server
+* Visual Studio 2022 ou superior ou Visual Studio Code
+* Windows 10+ ou Linux/macOS com [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) instalado 
+* MySQL Server
 
 ### Instalação
 
@@ -49,5 +49,5 @@ Para obter uma cópia local funcionando, siga estes passos simples.
    ```sh
    git clone https://github.com/marcosramosand/CashFlow.NET.git
    ```
-2. Preencha as informações no arquivo `appsettings.Development.json.`
+2. Preencha as informações no arquivo `appsettings.Development.json`
 3. Execute a API 
