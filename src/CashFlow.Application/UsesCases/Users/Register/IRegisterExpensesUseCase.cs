@@ -1,6 +1,6 @@
 ﻿using CashFlow.communication.Request;
 
-namespace CashFlow.Application.UsesCases.Register;
+namespace CashFlow.Application.UsesCases.Users.Register;
 
 public interface IRegisterExpensesUseCase
 {

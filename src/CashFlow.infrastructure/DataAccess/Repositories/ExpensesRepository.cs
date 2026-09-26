@@ -1,5 +1,6 @@
 ﻿using CashFlow.Domain.Entidades;
 using CashFlow.Domain.Repositories.Expenses;
+using CashFlow.Infrastructure.DataAccess;
 using Microsoft.EntityFrameworkCore;
 
 namespace CashFlow.infrastructure.DataAccess.Repositories;

@@ -2,7 +2,7 @@
 using CashFlow.Application.UsesCases.Expenses.GetAll;
 using CashFlow.Application.UsesCases.Expenses.GetById;
 using CashFlow.Application.UsesCases.Expenses.Update;
-using CashFlow.Application.UsesCases.Register;
+using CashFlow.Application.UsesCases.Users.Register;
 using CashFlow.communication.Request;
 using CashFlow.communication.Responses;
 using CashFlow.Exception.ExceptionsBase;

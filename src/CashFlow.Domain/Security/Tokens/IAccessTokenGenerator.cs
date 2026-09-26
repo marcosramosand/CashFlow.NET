@@ -1,0 +1,8 @@
+﻿using CashFlow.Domain.Entidades;
+
+namespace CashFlow.Domain.Security.Tokens;
+
+public interface IAccessTokenGenerator
+{
+    string Generate(User  user );
+}

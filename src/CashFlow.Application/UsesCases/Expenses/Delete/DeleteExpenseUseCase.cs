@@ -26,7 +26,7 @@ public class DeleteExpenseUseCase : IDeleteExpenseUseCase
             throw new NotFoundException(ResourceErrorMessages.EXPENSE_NOT_FOUND);
         }
 
-        await _unitofWork.Comit();
+        await _unitofWork.Commit();
     }
 
 }

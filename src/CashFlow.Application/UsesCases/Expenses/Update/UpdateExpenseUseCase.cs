@@ -37,7 +37,7 @@ public class UpdateExpenseUseCase : IUpdateExpenseUseCase
 
         _repository.Update(expense);
 
-         await _unitOfWork.Comit();
+         await _unitOfWork.Commit();
     }
 
     private void Validate(RequestExpensesJson request)

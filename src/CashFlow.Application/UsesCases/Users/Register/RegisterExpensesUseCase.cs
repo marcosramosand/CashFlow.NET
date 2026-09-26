@@ -8,7 +8,7 @@ using CashFlow.Exception.ExceptionsBase;
 
 using System.Data;
 
-namespace CashFlow.Application.UsesCases.Register;
+namespace CashFlow.Application.UsesCases.Users.Register;
 
 public class RegisterExpensesUseCase :  IRegisterExpensesUseCase
 {
@@ -36,7 +36,7 @@ public class RegisterExpensesUseCase :  IRegisterExpensesUseCase
 
         await _reposotory.add(entity);
 
-        await _unitOfWork.Comit();
+        await _unitOfWork.Commit();
 
         return _mapper.Map<RequestExpensesJson>(entity);
     }

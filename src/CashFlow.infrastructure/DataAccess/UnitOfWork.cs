@@ -1,6 +1,7 @@
 ﻿using CashFlow.Domain.Repositories;
+using CashFlow.Infrastructure.DataAccess;
 
-namespace CashFlow.infrastructure.DataAccess;
+namespace CashFlow.Infrastructure.DataAccess;
 
 internal class UnitOfWork : IUnitOfWork
 {
@@ -9,5 +10,5 @@ internal class UnitOfWork : IUnitOfWork
     {
         _dbContext = dbContext;
     }
-    public async Task Comit() => await _dbContext.SaveChangesAsync();
+    public async Task Commit() => await _dbContext.SaveChangesAsync();
 }
