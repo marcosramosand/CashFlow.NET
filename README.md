@@ -1,0 +1,53 @@
+## Sobre o projeto
+
+***API*** de Gerenciamento de Despesas Pessoais desenvolvida em **.NET 8**, seguindo os princípios do ***Domain-Driven Design (DDD)***.
+A solução foi projetada com uma arquitetura limpa e orientada ao domínio, priorizando organização, manutenibilidade e escalabilidade. Seu objetivo principal é permitir que os usuários registrem e organizem suas despesas de forma prática e eficiente.
+Funcionalidades
+
+***Cadastro de despesas com as seguintes informações: Título, Data e hora, Descrição, Valor e Tipo de pagamento***
+
+Persistência segura dos dados em banco de dados ***MySQL***
+
+A ***API*** oferece uma base sólida para o controle financeiro pessoal, com foco em clareza de código, segurança no armazenamento dos dados e facilidade de evolução do sistema.
+
+
+
+A arquitetura da **API** baseia-se em **REST**, utilizando métodos **HTTP** padrão para uma comunicação eficiente e simplificada. Além disso, é complementada por uma documentação **Swagger**, que proporciona uma interface gráfica interativa para que os desenvolvedores possam explorar e testar os endpoints de maneira fácil.
+
+Dentre os pacotes NuGet utilizados, o **AutoMapper** é o responsável pelo mapeamento entre objetos de domínio e requisição/resposta, reduzindo a necessidade de código repetitivo e manual. O **Fluent Assertions** é utilizado nos testes de unidade para tornar as verificações mais legíveis, ajudando a escrever testes claros e compreensíveis. Para as validações, o **FluentValidation** é usado para implementar regras de validação de forma simples e intuitiva nas classes de requisições, mantendo o código limpo e fácil de manter. Por fim, o **EntityFramework** atua como um ORM (Object-Relational Mapper) que simplifica as interações com o banco de dados, permitindo o uso de objetos .NET para manipular dados diretamente, sem a necessidade de lidar com consultas SQL
+
+![Imagem do projeto](Imagem/Imagem_projeto.jpg)
+
+### Features
+
+- **Domain-Driven Design (DDD)**: Estrutura modular que facilita o entendimento e a manutenção do domínio da aplicação.
+- **Testes de Unidade**: Testes abrangentes com FluentAssertions para garantir a funcionalidade e a qualidade.
+- **Geração de Relatórios**: Capacidade de exportar relatórios detalhados para **PDF e Excel**, oferecendo uma análise visual e eficaz das despesas.
+- **RESTful API com Documentação Swagger**: Interface documentada que facilita a integração e o teste por parte dos desenvolvedores.
+
+## Construído com 
+![.NET Badge](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=fff&style=flat)
+![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=flat)
+![Swagger Badge](https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=000&style=flat)
+
+
+
+
+## Getting Started
+
+Para executar o projeto localmente, siga estes passos simples.
+
+## Requisitos
+
+* Visual Studio 2022  ou Visual Studio Code
+* Windows 10+ ou Linux/macOS com [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) instalado 
+* MySQL Server
+
+### Instalação
+
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/marcosramosand/CashFlow.NET.git
+   ```
+2. Preencha as informações no arquivo `appsettings.Development.json`
+3. Execute a API 
